@@ -32,4 +32,9 @@ nano ~/.zshrc
 ## 命令行编译执行rust文件
 
 1. `rustc 你的rust文件.rs` 之后直接 `./main`
-2. 进入你的项目路径后直接`cargo run //编译直接运行`或者`cargo bulid //只编译`
+2. `进入你的项目路径后直接`cargo run //编译直接运行`或者`cargo bulid //只编译`
+
+## 添加外部库的方法
+
+* 第一种方法
+  1. 在RustRover打开项目,在target文件夹下的Cargo.toml中的`dependencies`下添加库名称和版本
